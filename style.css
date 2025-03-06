@@ -1,0 +1,77 @@
+.mobile{
+    background-color: rgb(129, 165, 165) ;
+}
+
+.container-1{
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.Butterfly{
+    /* background-color: rgb(121, 121, 121); */
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}  
+
+
+@media only screen and (max-width: 400px){
+
+    .mobile{
+        background-color: rgb(129, 165, 165);
+        width: 100%;
+        /* height: 300%; */
+    }
+        
+    .container-1{
+        /* background-color: cadetblue; */
+    }
+    .Butterfly{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        padding-top: 10px;
+        margin-left:15px ;
+        margin-right:15px ;
+    }
+    
+    .hamburger{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding-top: px;
+        margin-left: 290px ;
+        margin-right:15px ;
+    }
+    
+    .container-2{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .image{
+        width: 100%;
+    }
+
+    .container-1{
+        display: block;
+    }
+
+    .container-2{
+        display: block;
+    }
+}
